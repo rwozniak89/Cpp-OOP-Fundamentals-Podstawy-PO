@@ -18,3 +18,20 @@
 
 1668540533 c:\projects\cpp_po_2022-23z_execise\roznekolekcje\include\myclass.h
 
+1794842817 source:c:\projects\cpp_po_2022-23z\lab3\roznekolekcje\main.cpp
+	<iostream>
+	<time.h>
+	"MyList.h"
+	"MyClass.h"
+	<list>
+	<vector>
+	<algorithm>
+
+1762180062 c:\projects\cpp_po_2022-23z\lab3\roznekolekcje\include\mylist.h
+
+1762180062 c:\projects\cpp_po_2022-23z\lab3\roznekolekcje\include\myclass.h
+
+1762180062 source:c:\projects\cpp_po_2022-23z\lab3\roznekolekcje\src\mylist.cpp
+	"MyList.h"
+	<iostream>
+

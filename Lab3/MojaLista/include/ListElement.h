@@ -12,5 +12,6 @@ public:
 	ListElement(int key);
 	friend class List;
 };
+///testowa linia
 
 #endif // LISTELEMENT_H

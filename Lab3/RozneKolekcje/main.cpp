@@ -15,7 +15,7 @@ private:
     int valueInt;
     float valueFloat;
 
-    vector<MyClass*> * box;
+    vector<MyClass*> * element;
 
 public:
     MyClass* testObject;
@@ -25,14 +25,14 @@ public:
         valueInt = 0;
         valueFloat = 0.0;
         testObject = new MyClass();
-        box = new vector<MyClass*>();
+        element = new vector<MyClass*>();
     }
 
     void addObjToBox(MyClass* newObj )
     {
-        if(box->size() < 5 )
+        if(element->size() < 5 )
         {
-           box->push_back(newObj);
+           element->push_back(newObj);
             cout << "dodano obj do boxa" << endl;
         }
         else
@@ -45,7 +45,7 @@ public:
     void printBox()
     {
         cout<< "Info o Box, valueInt:" << valueInt << ", valueFloat:" << valueFloat <<endl;
-         for(auto i: *(this->box) ) {
+         for(auto i: *(this->element) ) {
             i->printData();
         }
         cout<< endl;
